@@ -10,10 +10,12 @@
 </head>
 <body>
 <div id="bodyDiv" style="visibility:visible">
-<div data-role="page" id="projectsPage" data-theme="b">
+
+<!--TODO: Update the JS to point to this section if no default project ID defined -->
+<!--<div data-role="page" id="projectsPage" data-theme="b">
     <div data-role="header" data-position="fixed" style="text-align:center;padding-top:5px" data-theme="b">
         <div>&nbsp;
-            <img style="background:white;width:120px;padding:2px;margin-left:6px;" src="images/logo.png" border="0" align="left" /><span class="ui-block-b" style="font-size:120%;">&nbsp;&nbsp;Requestor App <span class='title'></span></span>
+            <img style="background:white;width:120px;padding:2px;margin-left:6px;" src="images/logo.png" border="0" align="left" /><span class="ui-block-b" style="font-size:120%;">&nbsp;&nbsp;Tigr Requests <span class='title'></span></span>
         </div>
         <div>&nbsp;
         </div>
@@ -21,9 +23,6 @@
     
     <div data-role="content" class="sideGradient" data-theme="b">
         <div>
-            <p>
-                <b>Note:</b> type <b>system</b> and hit enter to search for the default <b>System (All Projects)</b> project if you're testsing this against the <a href="http://eval.versionone.net/platformtest" target="_blank">VersionOne test web server</a>.
-            </p>
             <input type="search" id="projectSearch" placeholder="Search for a project..." />
         </div>
         
@@ -32,16 +31,17 @@
             <ul id='projects' data-role='listview' data-insert='true' data-theme='b'></ul>
         </div>
     </div>
-</div>    
+</div>-->    
 
 <div data-role='page' id='list' data-theme='b'>
     <div data-role="header" data-position="fixed" style="text-align:center;padding-top:5px" data-theme="b">
         <div>&nbsp;
-            <img style="background:white;width:120px;padding:2px;margin-left:6px;" src="images/logo.png" border="0" align="left" /><span class="ui-block-b" style="font-size:120%;">&nbsp;&nbsp;Requestor App <span class='title'></span></span>
+            <img style="background:white;width:120px;padding:2px;margin-left:6px;" src="images/logo.png" border="0" align="left" /><span class="ui-block-b" style="font-size:120%;">&nbsp;&nbsp;Tigr Requests <span class='title'></span></span>
         </div>
         <div>&nbsp;
             <fieldset class="ui-grid-a">
-                <div class="ui-block-a"><a href="#projectsPage" data-role="button" data-icon="arrow-l" id="refreshList">Projects</a></div>
+				<!--TODO: Update the JS to point to this section if no default project ID defined -->
+                <!--<div class="ui-block-a"><a href="#projectsPage" data-role="button" data-icon="arrow-l" id="refreshList">Projects</a></div>-->
                 <div class="ui-block-b"><a href="#detail" class="new" data-role="button" data-icon="plus">New Request</a></div>
             </fieldset>
         </div>
@@ -55,7 +55,7 @@
 <div data-role="page" id="detail" data-theme="b"> 
     <div data-role="header" style="text-align:center;padding-top:5px" data-theme="b">
         <div>&nbsp;
-            <img style="background:white;width:120px;padding:2px;margin-left:6px;" src="images/logo.png" border="0" align="left" /><span class="ui-block-b" style="font-size:120%;">&nbsp;&nbsp;Requestor App <span class='title'></span></span>
+            <img style="background:white;width:120px;padding:2px;margin-left:6px;" src="images/logo.png" border="0" align="left" /><span class="ui-block-b" style="font-size:120%;">&nbsp;&nbsp;Tigr Requests <span class='title'></span></span>
         </div>
         <div>&nbsp;
             <fieldset class="ui-grid-a">

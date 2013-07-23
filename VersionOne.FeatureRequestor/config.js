@@ -8,6 +8,7 @@
     service = 'http://eval.versionone.net/platformtest/rest-1.v1/Data/';
     versionOneAuth = 'admin:admin';
     serviceGateway = false;
+	defaultProjectId = "Scope:3982";//this needs to be set if you want to use a default project and not search
     assetName = "Request";
     projectListClickTarget = 'new';
     configureFields = function(obj) {
@@ -64,7 +65,8 @@
       versionOneAuth: versionOneAuth,
       assetName: assetName,
       formFields: fields,
-      projectListClickTarget: projectListClickTarget
+      projectListClickTarget: projectListClickTarget,
+	  defaultProjectId: defaultProjectId
     };
     return options;
   });
